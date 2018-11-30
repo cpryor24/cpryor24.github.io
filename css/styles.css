@@ -92,13 +92,6 @@ p {
   margin: 3em 0;
 }
 
-/* .panel.hero>div .message .title {
-  font-weight: 100;
-  font-family: "Teko",Arial;
-  font-size: 4em;
-  line-height: 80%;
-} */
-
 .hero-image {
   text-align: center;
   margin-bottom: 5px;
@@ -120,11 +113,6 @@ p {
   text-align: center;
   letter-spacing: unset;
 }
-
-/* .panel.hero>div .message .sub-title {
-  font-size: 2em;
-  font-weight: 100;
-} */
 
 .panel.biography {
   background-color: #f6f5eb;
@@ -365,7 +353,7 @@ p {
   margin-left:1em;
 }
 
-/* .panel.contact .linkedin::before,
+.panel.contact .linkedin::before,
 .panel.contact .github::before {
   content:'';
   display:inline-block;
@@ -374,7 +362,7 @@ p {
   background-color:#435a63;
   -webkit-transform:skew(-20deg) translate(-1em, 0.2em);
   transform:skew(-20deg) translate(-1em, 0.2em);
-} */
+}
 
 .carousel-inner {
   overflow: inherit;
@@ -436,7 +424,7 @@ p {
     display:block;
     width:40em;
     /* height:30em; */
-    /* background-image:url("/images/splat.svg");
+    /* background-image:url("/images/");
     background-repeat:no-repeat;
     background-size:contain; */
     position:absolute;
@@ -447,17 +435,6 @@ p {
 
 
 @media (min-width: 750px) {
-  /* .panel.hero>div {
-    height: 350px;
-    text-align: left;
-  } */
-
-  /* .panel.hero>div .logo {
-    position: absolute;
-    top: 2em;
-    left: 1em;
-    width: 10em;
-  } */
 
   .hero-image {
     margin-bottom: -20px;
@@ -499,12 +476,6 @@ p {
     -webkit-transform: skew(-20deg) translate(-1em, 0.2em);
     transform: skew(-20deg) translate(-1em, 0.2em);
   }
-
-  /* .panel.hero>div .message{
-    position: absolute;
-    bottom: 3em;
-    left: 1em;
-  } */
 
 }
 
