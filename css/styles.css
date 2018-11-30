@@ -383,7 +383,7 @@ p {
     display: block;
     width: 20em;
     height: 25em;
-    background-image: url("/images/css3.png");
+    background-image: url("../images/css3.png");
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
