@@ -219,8 +219,8 @@ p {
 
 .desktop-image {
   position: absolute;
-  top: -3.7em;
-  right: -12.1em;
+  top: -3.1em;
+  right: -1.4em;
   width: 35em;
   height: 19em;
 }
@@ -270,13 +270,13 @@ p {
 .panel.css::before {
   content:'';
   display:block;
-  border:5vw solid transparent;
+  border:9vw solid transparent;
   border-right-width:100vw;
   border-right-color:#0d99da;
   border-bottom-width:0;
   border-left-width:0;
   position:absolute;
-  top:-5vw;
+  top:-9vw;
   z-index:-1;
 }
 
@@ -285,7 +285,7 @@ p {
 }
 
 .panel.css>div .message {
-  margin-top: 3em;
+  margin-top: 1em;
 }
 
 .panel.css>div .message h1 {
@@ -383,12 +383,12 @@ p {
     display: block;
     width: 20em;
     height: 25em;
-    background-image: url("./images/css3.png");
+    background-image: url("/images/css3.png");
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
     left: -7em;
-    top: -4.2em;
+    top: -5.2em;
   }
 
   .panel.contact>div::before{
@@ -467,17 +467,17 @@ p {
 
   .desktop-text,
   .desktop-arrows {
-    width: 37em;
+    width: 28em;
   }
 
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1080px) {
 
   .panel>div{
     padding:1em 0;
     margin:0 auto;
-    width:1000px;
+    width:1080px;
     background-position:calc(50% - 23em) 2em;
     }
 
