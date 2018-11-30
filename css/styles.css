@@ -302,20 +302,6 @@ p {
   height: 1em;
 }
 
-.cool-stripes::after {
-  content: '';
-  display: block;
-  background-color: #1671b6;
-  -webkit-transform: skew(-20deg) translateX(320px);
-  transform: skew(-20deg) translateX(320px);
-  height: 100%;
-  width: 70%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-}
-
 .cool-stripes::before{
   content: '';
   display: block;
@@ -323,7 +309,8 @@ p {
   height: 100%;
   -webkit-transform: skew(-20deg) translateX(320px);
   transform: skew(-20deg) translateX(320px);
-  -webkit-box-shadow: -30px 0 #1671b6,-60px 0 #1671b6,-90px 0 #1671b6,-120px 0 #1671b6,-150px 0 #1671b6,-180px 0 #1671b6,-210px 0 #1671b6,-240px 0 #1671b6;box-shadow: -30px 0 #1671b6,-60px 0 #1671b6,-90px 0 #1671b6,-120px 0 #1671b6,-150px 0 #1671b6,-180px 0 #1671b6,-210px 0 #1671b6,-240px 0 #1671b6;
+  -webkit-box-shadow: -30px 0 #0d99da,-60px 0 #0d99da,-90px 0 #0d99da,-120px 0 #0d99da,-150px 0 #0d99da,-180px 0 #0d99da,-210px 0 #0d99da,-240px 0 #0d99da, -270px 0 #0d99da;
+  box-shadow: -30px 0 #0d99da,-60px 0 #0d99da,-90px 0 #0d99da,-120px 0 #0d99da,-150px 0 #0d99da,-180px 0 #0d99da,-210px 0 #0d99da,-240px 0 #0d99da, -270px 0 #0d99da;
   position: absolute;
   top: 0;
   left: 0;
