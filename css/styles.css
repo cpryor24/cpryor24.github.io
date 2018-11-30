@@ -134,13 +134,13 @@ p {
   display: block;
   width: 1em;
   height: 2em;
-  /* background-color: #f6f5eb; */
+  background-color: #f6f5eb;
   -webkit-transform: skew(-20deg) translateY(-100%);
   transform: skew(-20deg) translateY(-100%);
   -webkit-box-shadow: -30px 0 #f6f5eb,-60px 0 #f6f5eb,-90px 0 #f6f5eb,-120px 0 #f6f5eb,-150px 0 #f6f5eb,-180px 0 #f6f5eb,-210px 0 #f6f5eb,-240px 0 #f6f5eb,-270px 0 #f6f5eb,-300px 0 #f6f5eb;
   box-shadow: -30px 0 #f6f5eb,-60px 0 #f6f5eb,-90px 0 #f6f5eb,-120px 0 #f6f5eb,-150px 0 #f6f5eb,-180px 0 #f6f5eb,-210px 0 #f6f5eb,-240px 0 #f6f5eb,-270px 0 #f6f5eb,-300px 0 #f6f5eb;
   position: absolute;
-  right: 0em;
+  right: 1.2em;
 }
 
 .panel.js-bio>div {
@@ -161,11 +161,11 @@ p {
 .panel.js-bio>div::after {
   content: '';
   display: block;
-  /* background-color: #f6f5eb; */
+  background-color: #f6f5eb;
   -webkit-transform: skew(-20deg) translateX(100px);
   transform: skew(-20deg) translateX(100px);
   height: 100%;
-  width: 100vw;
+  width: 70%;
   position: absolute;
   top: 0;
   left: 0;
@@ -309,7 +309,7 @@ p {
   -webkit-transform: skew(-20deg) translateX(320px);
   transform: skew(-20deg) translateX(320px);
   height: 100%;
-  width: 100vw;
+  width: 70%;
   position: absolute;
   top: 0;
   left: 0;
@@ -351,21 +351,6 @@ p {
 .panel.contact .linkedin,
 .panel.contact .github {
   margin-left:1em;
-}
-
-.panel.contact .linkedin::before,
-.panel.contact .github::before {
-  content:'';
-  display:inline-block;
-  width:0.2em;
-  height:1em;
-  background-color:#435a63;
-  -webkit-transform:skew(-20deg) translate(-1em, 0.2em);
-  transform:skew(-20deg) translate(-1em, 0.2em);
-}
-
-.carousel-inner {
-  overflow: inherit;
 }
 
 @media (min-width: 700px) {
