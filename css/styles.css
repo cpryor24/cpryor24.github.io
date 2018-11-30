@@ -270,7 +270,7 @@ p {
 .panel.css::before {
   content:'';
   display:block;
-  border: 6vw solid transparent;
+  border: 5vw solid transparent;
   border-right-width:100vw;
   border-right-color:#0d99da;
   border-bottom-width:0;
