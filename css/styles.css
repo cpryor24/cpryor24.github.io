@@ -335,6 +335,7 @@ p {
   font-size: 1.4em;
 }
 
+.panel.contact .email,
 .panel.contact .linkedin,
 .panel.contact .github {
   margin-left:1em;
