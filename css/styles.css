@@ -344,6 +344,10 @@ p {
   display: none;
 }
 
+.mobile-resume {
+  display: inline;
+}
+
 .modal-lg {
   max-width: 850px;
 }
