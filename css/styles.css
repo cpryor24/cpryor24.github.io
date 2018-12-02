@@ -340,6 +340,10 @@ p {
   margin-left:1em;
 }
 
+.desktop-resume {
+  display: none;
+}
+
 .modal-lg {
   max-width: 850px;
 }
@@ -502,6 +506,14 @@ iframe {
     position:absolute;
     top:-9vw;
     z-index:-1;
+  }
+
+  .mobile-resume {
+    display: none;
+  }
+
+  .desktop-resume {
+    display: inline;
   }
 
 }
