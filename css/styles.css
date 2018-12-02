@@ -327,7 +327,6 @@ p {
 }
 
 .panel.contact .details{
-  font-size: 1.5em;
   font-family: "Teko",Arial;
 }
 
@@ -339,6 +338,26 @@ p {
 .panel.contact .linkedin,
 .panel.contact .github {
   margin-left:1em;
+}
+
+.modal-lg {
+  max-width: 850px;
+}
+
+iframe {
+  border: 0;
+}
+
+.btn-warning {
+  color: #212529;
+  background-color: #fc9a2a;
+  border-color: #ffc107;
+}
+
+.btn-warning:hover {
+  color: #fc9a2a;
+  background-color: #212529;
+  border-color: #d39e00;
 }
 
 @media (min-width: 700px) {
@@ -453,6 +472,7 @@ p {
 }
 
 @media (min-width: 980px) {
+
   .panel.work>div .projects {
     width:38em;
   }
